@@ -1,7 +1,7 @@
 package com.harkhark.core.data.di
 
-import com.harkhark.core.data.repository.SampleRepositoryImpl
-import com.harkhark.core.domain.repository.SampleRepository
+import com.harkhark.core.data.repository.LoveRepositoryImpl
+import com.harkhark.core.domain.repository.LoveRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -11,9 +11,9 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-interface RepositoryModule {
+abstract class RepositoryModule {
     @Binds
     @Singleton
-    fun bindSampleRepository(authRepositoryImpl: SampleRepositoryImpl): SampleRepository
+    abstract fun bindLoveRepository(loveRepositoryImpl: LoveRepositoryImpl): LoveRepository
 
 }

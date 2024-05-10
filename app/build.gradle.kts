@@ -43,8 +43,9 @@ android {
 
 dependencies {
     implementation(project(":core:common"))
-    implementation(project(":core:domain"))
+    implementation(project(":core:data"))
     implementation(project(":core:designsystem"))
+    implementation(project(":feature:input"))
 
     implementation(libs.timber)
 

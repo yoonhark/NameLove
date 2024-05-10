@@ -1,6 +1,6 @@
 package com.harkhark.core.network.di
 
-import com.harkhark.core.network.api.SampleApi
+import com.harkhark.core.network.api.LoveCalculatorApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -17,5 +17,5 @@ import javax.inject.Singleton
 object ApiModule {
     @Provides
     @Singleton
-    fun provideSampleApi(retrofit: Retrofit): SampleApi = retrofit.create()
+    fun provideLoveCalculatorApi(@LoveCalculatorRetrofit retrofit: Retrofit): LoveCalculatorApi = retrofit.create()
 }
