@@ -1,4 +1,4 @@
-package com.harkhark.feature.namelove
+package com.hakrhark.feature.splash
 
 import org.junit.Test
 

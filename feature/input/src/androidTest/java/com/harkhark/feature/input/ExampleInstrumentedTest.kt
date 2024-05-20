@@ -1,4 +1,4 @@
-package com.harkhark.feature.namelove
+package com.harkhark.feature.input
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -49,9 +49,9 @@ protobuf = "3.25.2"
 protobufPlugin = "0.9.4"
 dokka = "1.9.0"
 legacy-support-v4 = "1.0.0"
-mavericksRxjava2 = "2.6.1"
 appcompatVersion = "1.6.1"
 core = "1.13.1"
+benchmarkCommon = "1.2.4"
 
 
 [libraries]
@@ -133,6 +133,7 @@ converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref
 retrofit-kotlin-serialization = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "retrofitKotlinxSerializationJson" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompatVersion" }
 androidx-core = { group = "androidx.core", name = "core", version.ref = "core" }
+androidx-benchmark-common = { group = "androidx.benchmark", name = "benchmark-common", version.ref = "benchmarkCommon" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "androidGradlePlugin" }

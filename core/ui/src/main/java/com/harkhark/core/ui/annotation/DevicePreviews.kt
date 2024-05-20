@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.harkhark.core.ui
+package com.harkhark.core.ui.annotation
 
 import androidx.compose.ui.tooling.preview.Preview
 

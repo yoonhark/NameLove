@@ -44,14 +44,19 @@ android {
 dependencies {
     implementation(project(":core:common"))
     implementation(project(":core:data"))
+    implementation(project(":core:ui"))
     implementation(project(":core:designsystem"))
+
+    implementation(project(":feature:splash"))
     implementation(project(":feature:input"))
+    implementation(project(":feature:result"))
 
     implementation(libs.timber)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.navigation.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui.tooling.preview)
     testImplementation(libs.junit)
